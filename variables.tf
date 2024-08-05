@@ -16,3 +16,8 @@ variable "name_tag" {
    default     = "My EC2 Instance"
 }
 
+variable "aws_region" {
+  default = "ap-south-1"
+  description = "aws region"
+}
+
